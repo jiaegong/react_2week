@@ -5,7 +5,7 @@ import { addWordFB } from "./redux/modules/dictionary";
 import { useHistory } from "react-router-dom";
 import { useLocation } from "react-router";
 
-const Add = (props) => {
+const Edit = (props) => {
   const history = useHistory();
   const ref = React.useRef([]);
   const dispatch = useDispatch();
@@ -131,4 +131,4 @@ const Save = styled.button`
   }
 `;
 
-export default Add;
+export default Edit;
